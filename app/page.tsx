@@ -298,7 +298,7 @@ export default function Home() {
               <div className="relative bg-[#0a0a0a] border border-white/10 rounded-2xl p-8 shadow-2xl">
                 <div className="flex items-center gap-4 mb-8">
                   <div className="w-16 h-16 rounded-full bg-slate-800 border-2 border-emerald-500 overflow-hidden relative">
-                    <img src="/dhanesh.jpg" alt="Profile" className="w-full h-full object-cover grayscale opacity-80" />
+                    <img src="/dhanesh.png" alt="Profile" className="w-full h-full object-cover grayscale opacity-80" />
                   </div>
                   <div>
                     <h4 className="text-xl font-bold text-white">Dhanesh Rao</h4>

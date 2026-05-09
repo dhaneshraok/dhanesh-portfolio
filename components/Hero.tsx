@@ -198,7 +198,8 @@ export default function Hero() {
                 </span>
               </a>
               <a
-                href="/resume.docx"
+                href="/resume.pdf"
+                download
                 className="px-7 py-3 border border-white/15 text-white font-semibold rounded-full text-sm hover:bg-white/[0.06] hover:border-white/25 transition-all duration-300"
               >
                 Resume

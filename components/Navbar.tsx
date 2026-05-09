@@ -86,7 +86,8 @@ export default function Navbar() {
 
         {/* Desktop CTA */}
         <a
-          href="/resume.docx"
+          href="/resume.pdf"
+          download
           className="hidden md:flex items-center gap-2 px-5 py-2.5 text-sm font-medium text-white bg-violet-600 hover:bg-violet-500 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-violet-500/25"
         >
           <Download size={14} />
@@ -125,7 +126,8 @@ export default function Navbar() {
                 </a>
               ))}
               <a
-                href="/resume.docx"
+                href="/resume.pdf"
+                download
                 className="mt-4 inline-flex items-center justify-center gap-2 px-5 py-3 text-sm font-medium text-white bg-violet-600 rounded-full"
               >
                 <Download size={14} />
